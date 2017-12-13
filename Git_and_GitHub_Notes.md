@@ -192,6 +192,7 @@ A new branch 6848_result_highlighting is created with the PR changes.
 	$ git checkout other_users_branch
 	
 Check history of other_user's branch.
+
 	$ git log other_user/other_users_branch
 	$ git pull other_user other_users_branch
 	$ git log
