@@ -185,7 +185,7 @@ A new branch 6848_result_highlighting is created with the PR changes.
 	$ git pull upstream pull/6848/head
 	$ git pull origin 6851_copy_waypoint_notes
 
-### Create Branch foreign branches
+### Create Branch for foreign user's branches
 Define a remote for the other user's repository.
 
 	$ git remote add other_user https://github.com/other_user/cgeo.git
