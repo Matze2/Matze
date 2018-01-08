@@ -99,7 +99,11 @@ https://stackoverflow.com/questions/2765421/how-do-i-push-a-new-local-branch-to-
 	$ git branch <issue_id>_description
 	$ git checkout <issue_id>_description
 Rename the branch (when you are in it)
+
 	$ git branch -m <new name>
+Delete a branch 
+
+	$ git branch -D <branch name>
 
 ### Development
 
