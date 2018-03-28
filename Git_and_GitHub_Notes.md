@@ -20,6 +20,15 @@ Repository configuration for a GitHub project:
 	$ git config user.name Matze2
 	$ git config user.email 12542802+Matze2@users.noreply.github.com
 
+### Other Settings
+Use rebase instead of merge for pull.
+
+	$ git config --global branch.autosetuprebase always
+	
+Allow rebasing with uncomitted changes
+
+	$ git config --global rebase.autoStash true
+	
 ### Clone a repository
 
 From the remote fork:
