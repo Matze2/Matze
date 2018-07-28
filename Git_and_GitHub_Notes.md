@@ -79,11 +79,11 @@ TODO: Unterschied zwischen merge und pull????
 
 ## Branches
 
-Which remote and local branches are available in this repository:
+Which local branches are available in this repository:
 
 	$ git branch
 
-Which remote and local branches are available in this repository:
+Which remote and local branches are available in this repository with details:
 
 	$ git branch -av
 
