@@ -46,7 +46,13 @@ Allow rebasing with uncomitted changes
 	$ git show [commit-reference]
 
 ### Revert changes in the working tree
+
 	$ git checkout file
+	
+### Correct commit comment
+
+	$ git commit --amend -m "More changes - now correct"
+	
 ### Clone a repository
 
 From the remote fork:
