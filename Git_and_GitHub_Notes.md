@@ -20,7 +20,7 @@ Repository configuration for a GitHub project:
 	$ git config user.name Matze2
 	$ git config user.email 12542802+Matze2@users.noreply.github.com
 
-### Other Settings
+### Other Settings recommended from Vogella
 Use rebase instead of merge for pull.
 
 	$ git config --global branch.autosetuprebase always
@@ -29,6 +29,24 @@ Allow rebasing with uncomitted changes
 
 	$ git config --global rebase.autoStash true
 	
+### Repository Status
+
+	$ git status
+
+### Staging and Unstaging
+
+	$ git add dir1/file1
+	$ git add *.java
+	$ git add .
+	
+	$ git rm --cached dir1/file1
+	
+### Review commit changes
+
+	$ git show [commit-reference]
+
+### Revert changes in the working tree
+	$ git checkout file
 ### Clone a repository
 
 From the remote fork:
