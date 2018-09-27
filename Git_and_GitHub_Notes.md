@@ -39,6 +39,10 @@ Allow rebasing with uncomitted changes
 	$ git add *.java
 	$ git add .
 	
+	$ git reset HEAD dir1/file1
+	
+#### Remove from git control, but keep working file
+
 	$ git rm --cached dir1/file1
 	
 ### Review commit changes
